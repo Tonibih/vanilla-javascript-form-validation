@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Sign-Up Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <!--- form title --->
+        <div class="form-title">
+            <h1 class="form-header">Sign Up</h1>
+        </div>
+        <!--- markup for form design --->
+        <div class="form-details">
+            <form action="" id="form" class="form-wrapper">
+                <div class="form-field">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="fname" class="input">
+                    <span class="error"></span>
+                </div>
+                <div class="form-field">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lname" class="input">
+                    <span class="error"></span>
+                </div>
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="input">
+                    <span class="error"></span>
+                </div>
+                <div class="form-field">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" class="input">
+                    <span class="error"></span>
+                </div>
+                <div class="form-field">
+                    <label for="confirm_password">Confirm Password</label>
+                    <input type="password" name="confirm_password" id="password2" class="input">
+                    <span class="error"></span>
+                </div>
+                <div class="form-field form-submit">
+                    <input type="submit" name="submit" value="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">👋 This is designed by @ntohnwibih. Check out my
+        <a href="#" target="_blank">blog</a> 
+        or my 
+        <a href="#">Portfolio</a>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
